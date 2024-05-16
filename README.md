@@ -4,4 +4,11 @@
 - 2024년 2분기
 - CSRF, RSA Encryption
 
+## flow
+1. Read SUBJECTS[](to apply), COOKIE, CSRFTOKEN, USERINFO[], RSAKEY, PARAMS[], TARGTIME from File or Const variables.
+2. Request current ServerTime(POST /g***/***)(header: CSRFTOKEN,COOKIE / body: {})
+3. Wait... (Until currentServerTime >= TARGTIME) (setTimeout(,1000))
+4. Request Apply(POST /***)(header: CSRFTOKEN,COOKIE / body: RSAEncryption(getParams(SUBJECT[i],USERINFO)))
+5. Update
+
 <img width="682" alt="image" src="https://github.com/Neibce/PNU-Sugang-Macro/assets/18096595/dd2856a8-0f90-4019-9eac-b9c4ce3355d1">
