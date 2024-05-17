@@ -16,17 +16,17 @@ var RSAExponent = "{YOUR RSAExponent}";
 var _rsa = new rsa.RSAKey();
 _rsa.setPublic(RSAModulus, RSAExponent);
 
-function gfn_str_getByteLength(s) {}
+function gfn_str_getByteLength(s) {/*...*/}
 
-function fn_ajax_enc_param(str) {}
+function fn_ajax_enc_param(str) {/*...*/}
 
-function gfn_str_parseNull(object) {}
+function gfn_str_parseNull(object) {/*...*/}
 
-function gfn_ajax_request(options, success, failed) {}
+function gfn_ajax_request(options, success, failed) {/*...*/}
 
-function isEmpty(value){}
+function isEmpty(value) {/*...*/}
 
-function getParam(subjNo, classNo, subjNM, loginUser) {}
+function getParam(subjNo, classNo, subjNM, loginUser) {/*...*/}
 
 function timeToInt(t){
   return t[0] * 1000 + t[1] * 10 + t[0];
@@ -95,7 +95,6 @@ function run(){
     SUBJECTS[i].statusCode = 2;
     req(i);
   }
-
   load();
 }
 
