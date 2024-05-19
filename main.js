@@ -3,13 +3,13 @@ const readline = require('readline');
 const rsa = require('./rsa');
 const COOKIE = "{YOUR COOKIE}";
 const CSRFTOKEN = "{YOUR CSRF_TOKEN}";
-const TIMETO = [8,0,0]; //H,M,S
+const TIMETO = [8,0,0]; //TARGET H,M,S
 const SUBJECTS = [
   {'코드': '', '분반': '', '교과목명': '', status: '', statusCode : -1},
   {'코드': '', '분반': '', '교과목명': '', status: '', statusCode : -1},
   {'코드': '', '분반': '', '교과목명': '', status: '', statusCode : -1}
 ];
-const loginUser = {"{YOUR USER_DATA}":""};
+const loginUser = {"YOUR USER_DATA":""};
 
 var RSAModulus = "{YOUR RSAModulus}";
 var RSAExponent = "{YOUR RSAExponent}";
@@ -22,7 +22,7 @@ function fn_ajax_enc_param(str) {/*...*/}
 
 function gfn_str_parseNull(object) {/*...*/}
 
-function gfn_ajax_request(options, success, failed) {/*...*/}
+function gfn_ajax_request(options, success, failed) {/*...*/} // success, failed == callback function
 
 function isEmpty(value) {/*...*/}
 
