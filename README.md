@@ -3,6 +3,7 @@
 - Node.js + [Request](https://github.com/request/request/)(Deprecated) + jsnb(for RSA Encryption)
 - 2024년 2분기
 - CSRF, RSA Encryption
+- 주요 함수 비공개
 
 ## flow
 1. Read variables ```SUBJECTS[], COOKIE, CSRFTOKEN, USERINFO[], RSAKEY, PARAMS[] and TARGTIME``` from a file or const variables.
