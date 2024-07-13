@@ -1,6 +1,6 @@
 # PNU-Sugang-Macro
 
-- Node.js + [Request](https://github.com/request/request/)(Deprecated) + jsnb(for RSA Encryption)
+- Node.js + [Request](https://github.com/request/request/)(Deprecated but...) + jsnb(for RSA Encryption)
 - 2024년 2분기
 - CSRF, RSA Encryption
 - 주요 함수 비공개
