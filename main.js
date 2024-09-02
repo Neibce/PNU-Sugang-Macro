@@ -29,7 +29,7 @@ function isEmpty(value) {/*...*/}
 function getParam(subjNo, classNo, subjNM, loginUser) {/*...*/}
 
 function timeToInt(t){
-  return t[0] * 1000 + t[1] * 10 + t[0];
+  return t[0] * 10000 + t[1] * 100 + t[2];
 }
 
 function checkTime(callback){
